@@ -1,0 +1,19 @@
+Assignment name  : count_alpha
+Expected files   : count_alpha.c
+Allowed functions: printf, write
+--------------------------------------------------------------------------------
+
+Write a program that count number of letters in sentence,
+if arguments not 2 write new line
+
+
+./count_alpha "abbcc" | cat -e
+1a, 2b, 2c$
+./count_alpha "abb CC 34 k ma l" | cat -e
+2a, 2b, 2c, 1k, 1m, 1l$
+./count_alpha "My couNt zerro 43. y 5 yp  " | cat -e
+1m, 3y, 1c, 2o, 1u, 1n, 1t, 1z, 1e, 2r, 1p$
+./count_alpha "" | cat -e
+$
+./count_alpha "aabbbccc" "dacaad" | cat -e
+$
